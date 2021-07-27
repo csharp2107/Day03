@@ -12,7 +12,8 @@ namespace SerializationExample
         {
             //BinarySerialization.Create();
             //XMLSerialization.Create();
-            SoapSerialization.Create();
+            //SoapSerialization.Create();
+            JsonSerialization1.Create();
         }
     }
 }
