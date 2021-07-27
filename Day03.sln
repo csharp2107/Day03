@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FetchImages", "FetchImages\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuplesExample", "TuplesExample\TuplesExample.csproj", "{625B7AF9-A97A-4C69-BF64-35FC47BD3F7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsExample", "GenericsExample\GenericsExample.csproj", "{D6941CE7-5A5B-4676-A96E-DA0F60458176}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{625B7AF9-A97A-4C69-BF64-35FC47BD3F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{625B7AF9-A97A-4C69-BF64-35FC47BD3F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{625B7AF9-A97A-4C69-BF64-35FC47BD3F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6941CE7-5A5B-4676-A96E-DA0F60458176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6941CE7-5A5B-4676-A96E-DA0F60458176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6941CE7-5A5B-4676-A96E-DA0F60458176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6941CE7-5A5B-4676-A96E-DA0F60458176}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
