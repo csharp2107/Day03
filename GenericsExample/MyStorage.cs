@@ -43,6 +43,8 @@ namespace GenericsExample
     }
 
     class MyStorageWithKey<TKey, TValue>
+        where TKey : struct
+        where TValue : class
     {
         public TKey key;
         public TValue value; 
