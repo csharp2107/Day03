@@ -8,14 +8,14 @@ using System.Xml.Serialization;
 namespace SerializationExample
 {
     [Serializable]
-    public class Employee
+    public class EmployeeNN
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public bool? IsManager { get; set; }
-        public List<int> AccessRooms { get; set; }
-        public DateTime? StartAt { get; set; }
+        public bool IsManager { get; set; }
+        //public List<int> AccessRooms { get; set; }
+        public DateTime StartAt { get; set; }
 
         public override string ToString()
         {
@@ -29,7 +29,7 @@ namespace SerializationExample
             this.token = token;
         }
 
-        [XmlIgnore]
-        public List<string> ExtraData { get; set; }
+        //[XmlIgnore]
+        //public List<string> ExtraData { get; set; }
     }
 }
