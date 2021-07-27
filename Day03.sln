@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuplesExample", "TuplesExam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsExample", "GenericsExample\GenericsExample.csproj", "{D6941CE7-5A5B-4676-A96E-DA0F60458176}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerializationExample", "SerializationExample\SerializationExample.csproj", "{A6A25CBD-8055-4A0D-A1AD-B2720F383B32}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{D6941CE7-5A5B-4676-A96E-DA0F60458176}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6941CE7-5A5B-4676-A96E-DA0F60458176}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6941CE7-5A5B-4676-A96E-DA0F60458176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A25CBD-8055-4A0D-A1AD-B2720F383B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A25CBD-8055-4A0D-A1AD-B2720F383B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A25CBD-8055-4A0D-A1AD-B2720F383B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A25CBD-8055-4A0D-A1AD-B2720F383B32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
